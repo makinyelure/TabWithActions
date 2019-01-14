@@ -1,0 +1,23 @@
+{
+  "name": "tabwithaction",
+  "version": "1.0.0",
+  "description": "A normal tab takes HTML code, while not pass actions or functions instead. This library will leave all your business logic or whatever logic to you. We will invoke your logic based on the tab you provided",
+  "main": "tabwithaction.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Michael Akinyelure",
+  "license": "ISC",
+  "dependencies": {
+    "domino": "^2.1.1",
+    "jsdom": "^13.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "domino": "*",
+    "mocha": "^5.2.0"
+  }
+}
